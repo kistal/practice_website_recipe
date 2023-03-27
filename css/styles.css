@@ -1,0 +1,11 @@
+.foodthumb {
+    height: 15%;
+    width: 15%;
+    min-height: 279px;
+    min-width: 279px;
+}
+.wrapper {
+    width: 75%;
+    min-width: 50%;
+    margin: 0 auto;
+}
