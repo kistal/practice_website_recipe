@@ -1,3 +1,20 @@
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 1.7;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    font-weight: bolder;
+}
 .foodthumb {
     height: 15%;
     width: 15%;
@@ -8,4 +25,63 @@
     width: 75%;
     min-width: 50%;
     margin: 0 auto;
+}
+header {
+    margin: 30px 0 70px;
+}
+ul {
+    
+    list-style: none;
+}
+.recipelist {
+    width: 50%;
+    float: left;
+}
+.recipelist h1 {
+    position: relative;
+    left: 15px;
+}
+.aboutus {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    float: right;
+    margin-bottom: 100px;
+}
+.ingredients {
+    text-align: left;
+    width: 30%;
+    float: left;
+    margin-bottom: 100px;
+    line-height: 2;
+}
+.ingredients h2 {
+    text-align: center;
+}
+.instructions {
+    position: relative;
+    right: 30%;
+    width: 40%;
+    float: right;
+    text-align: left;
+}
+.instructions h1 {
+    text-align: center;
+}
+footer {
+    clear: both;
+}
+footer a {
+    margin: 10px;
+
+}
+.foodimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+    min-width: 360px;
+    min-height: 360px;
+    margin-bottom: 20px;
 }
