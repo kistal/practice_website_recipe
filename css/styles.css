@@ -3,74 +3,78 @@
 } */
 
 body {
-    background-color: #ffebcd;
-    text-align: center;
-    font-size: 20px;
-    font-family: sans-serif;
-    line-height: 1.7;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffebcd 15px ), repeating-linear-gradient( #ffd28e55, #ffd28e );
-    min-height: 1000px;
+	background-color: #ffebcd;
+	text-align: center;
+	font-size: 20px;
+	font-family: sans-serif;
+	line-height: 1.7;
+	background-image: repeating-radial-gradient(
+			circle at 0 0,
+			transparent 0,
+			#ffebcd 15px
+		),
+		repeating-linear-gradient(#ffd28e55, #ffd28e);
+	min-height: 1000px;
 }
 a {
-    color: black;
-    text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
-a:visited{
-    color: black;
+a:visited {
+	color: black;
 }
-a:hover{
-    font-weight: bolder;
+a:hover {
+	font-weight: bolder;
 }
 .wrapper {
-    width: 75%;
-    min-width: 50%;
-    margin: 0 auto;
-    display: flex;
-    /* grid-template-columns: repeat(2, 1fr); */
+	width: 75%;
+	min-width: 50%;
+	margin: 0 auto;
+	display: flex;
+	/* grid-template-columns: repeat(2, 1fr); */
 }
 header {
-    margin: 30px 0 70px;
+	margin: 30px 0 70px;
 }
 ul {
-    list-style: none;
+	list-style: none;
 }
 .recipelist {
-    width: 50%;
+	width: 50%;
 }
 
 .aboutus {
-    text-align: right;
-    width: 40%;
-    margin-bottom: 100px;
+	text-align: right;
+	width: 40%;
+	margin-bottom: 100px;
 }
 .ingredients {
-    text-align: left;
-    width: 30%;
-    margin-bottom: 100px;
-    line-height: 2;
+	text-align: left;
+	width: 30%;
+	margin-bottom: 100px;
+	line-height: 2;
 }
 .ingredients h2 {
-    text-align: center;
+	text-align: center;
 }
 .instructions {
-    right: 30%;
-    width: 40%;
-    text-align: left;
+	right: 30%;
+	width: 40%;
+	text-align: left;
 }
 .instructions h1 {
-    text-align: center;
+	text-align: center;
 }
 footer {
-    clear: both;
+	clear: both;
 }
 footer a {
-    margin: 10px;
-
+	margin: 10px;
 }
 .foodimg {
-    /* grid-column: 1 / -1; */
-    max-width: 30%;
-    height: auto;
-    min-width: 360px;
-    margin-bottom: 20px;
+	/* grid-column: 1 / -1; */
+	max-width: 30%;
+	height: auto;
+	min-width: 360px;
+	margin-bottom: 20px;
 }
