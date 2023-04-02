@@ -21,6 +21,12 @@ a:visited{
 a:hover{
     font-weight: bolder;
 }
+.foodthumb {
+    height: 15%;
+    width: 15%;
+    min-height: 279px;
+    min-width: 279px;
+}
 .wrapper {
     width: 75%;
     min-width: 50%;
@@ -35,18 +41,20 @@ ul {
     list-style: none;
 }
 .recipelist {
+    display: inline-block;
     width: 50%;
 }
 
 .aboutus {
+    display: inline-block;
     text-align: right;
     width: 40%;
     margin-bottom: 100px;
 }
 .ingredients {
-    flex-direction: column;
     text-align: left;
     width: 30%;
+    float: left;
     margin-bottom: 100px;
     line-height: 2;
 }
@@ -54,9 +62,10 @@ ul {
     text-align: center;
 }
 .instructions {
-    flex-direction: column;
+    position: relative;
     right: 30%;
     width: 40%;
+    float: right;
     text-align: left;
 }
 .instructions h1 {
@@ -70,7 +79,10 @@ footer a {
 
 }
 .foodimg {
-    max-width: 30%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
     height: auto;
     min-width: 360px;
     margin-bottom: 20px;
